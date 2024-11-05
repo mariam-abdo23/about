@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(245, 145, 127, 0.247);
+}
+.all{
+    background-color: rgba(240, 248, 255, 0.849);
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 40px;
+}
+img{
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 40px;
+    margin: 20px auto;
+}
+.Recipe h1{
+    translate: 60px;
+    color: rgb(61, 61, 61);
+}
+.Recipe p{
+    font-size: large;
+    width: 50%;
+    translate: 60px;
+    color: rgb(61, 61, 61);
+}
+.time{
+    border-radius: 30px;
+    background-color: rgba(255, 192, 203, 0.438);
+    margin: 50px;
+}
+.time h2{
+    padding: 20px 20px;
+    color: rgb(164, 83, 240);
+}
+.time ul{
+    
+    line-height: 40px;
+    font-size: 20px;
+    padding: 0  0 20px 30px ;
+
+}
+span{
+    font-weight: bolder;
+    color: rgb(105, 2, 2);
+}
+.color li{
+    color:   rgb(184, 16, 16);;
+}
+.ingred h2{
+    color: rgb(168, 3, 3);
+    translate: 60px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.ingred ul{
+    line-height: 50px;
+    translate: 60px;
+    font-size: 20px;
+    list-style-type: square;
+}
+.ingred ul li::marker{
+    color: rgb(223, 0, 0);
+    
+}
+hr{
+    height: 2px;
+    background-color: brown;
+}
+.instr h2{
+    color: rgb(168, 3, 3);
+    translate: 60px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+
+}
+.instr ol{
+    width:60% ;
+    line-height: 50px;
+    translate: 60px;
+    font-size: 20px;
+}
+.Nutrition-info{
+    width: 80%;
+    
+    font-family: Arial, sans-serif; 
+    translate: 60px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+.label{
+    color: #333;
+    font-size: 18px;
+}
+.value{
+    color: #8B0000;
+    font-weight: bold;
+}
+.Nutrition{
+    width: 80%;
+    color: rgb(71, 0, 0);
+    translate: 60px;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1px;  
+}
